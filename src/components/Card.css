@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+}
+
+.container {
+	background: #23252c;
+	width: 550px;
+	height: 900px;
+	margin: 0 auto;
+	display: flex;
+
+}
+.card {
+	width: 317px;
+	color: #ffffff;
+	height: max-content;
+	background-color: #1a1b21;
+	margin: auto;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.name {
+	margin-top: 20px;
+	font-weight: 700;
+}
+
+.role {
+	margin-top: 5px;
+	color: #f3bf99;
+}
+
+.btn-cont {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+	margin-top: 20px;
+}
+
+.content-container {
+	max-width: 250px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+.btn {
+	font-size: 14px;
+	padding: 10px 20px;
+	border-radius: 6px;
+	border: none;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.mail {
+	border: #d1d5db;
+}
+
+.linkedin {
+	background: #5093e2;
+}
+
+.info {
+	text-align: left;
+	margin-top: 40px;
+	line-height: 15pt;
+}
+
+.info > .interests > .title,
+.info > .about > .title {
+	margin-bottom: 15px;
+}
+
+.info > .interests p,
+.info > .about > p {
+	font-size: 10.24px;
+}
+
+.interests {
+	margin-top: 30px;
+}
+
+footer {
+    margin-top: 40px;
+	background: #161619;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.footer-container {
+	display: flex;
+	gap: 20px;
+}
